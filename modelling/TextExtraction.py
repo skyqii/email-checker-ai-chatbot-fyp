@@ -68,10 +68,10 @@ def get_xlsx_text(xlsx_docs):
     return text
 
 # Directory paths
-pdf_dir = r'data\pdf_files'
-docx_dir = r'data\docx_files'
-pptx_dir = r'data\pptx_files'
-xlsx_dir = r'data\xlsx_files'
+pdf_dir = r'modelling\data\pdf_files'
+docx_dir = r'modelling\data\docx_files'
+pptx_dir = r'modelling\data\pptx_files'
+xlsx_dir = r'modelling\data\xlsx_files'
 
 # Fetch file paths
 pdf_files = [os.path.join(pdf_dir, f) for f in os.listdir(pdf_dir) if f.endswith('.pdf')]
@@ -86,14 +86,14 @@ pptx_text = get_pptx_text(pptx_files)
 xlsx_text = get_xlsx_text(xlsx_files)
 
 # Define the output file for all extracted text
-output_file = os.path.join('data', 'extracted_text.txt')
+output_file = os.path.join('modelling\data', 'extracted_text.txt')
 
 # Function to store all extracted text into one file
 def save_all_text_to_file(texts, file_name):
     with open(file_name, 'w', encoding='utf-8') as f:
         for text_type, text in texts.items():
-            f.write(f"--- {text_type.upper()} TEXT ---\n")
-            f.write(text + "\n\n")
+            # f.write(f"--- {text_type.upper()} TEXT ---\n")
+            f.write(text + "\n")
 
 # Combine all extracted texts into a dictionary
 all_texts = {

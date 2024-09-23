@@ -1,4 +1,3 @@
---- PDF TEXT ---
 Cybersecurity
 
 IM Policy
@@ -1002,8 +1001,6 @@ FCM12-2013-Annex-D-Stocktake_template
 NYP Information gathering templates  
 
 
-
---- DOCX TEXT ---
 NYP Systems Security Classification and Sensitivity Categorisation
 
 
@@ -1060,8 +1057,6 @@ No. System Name Info Security Classification Sensitivity Categorisation
 49 WITs Administration System  Official Closed Non-Sensitive 
 50 Workflow System for Exams Office  Official Closed Sensitive (High) 
 
-
---- PPTX TEXT ---
 Computer & Network Center (CNC)
 
 
@@ -1280,8 +1275,6 @@ Decision Flowchart
 
 
 
-
---- XLSX TEXT ---
 DATA-SHARING : SUMMARY SHEET 
 
 Please indicate the total number of datasets held by your Ministry HQ and each of your Statutory Boards/Departments,  
@@ -1692,5 +1685,4 @@ S/N Code Owner Adopted Standards Dependent Data Elements Usage Guidelines Number
 73 ExitRatingCode DHR Effective 13Mar2013 4 1 to 4 Item data/Lists/NYP Code Tables 
 74 ExitReasonCode DHR Effective 13Mar2013 6 1 to 6 Item data/Lists/NYP Code Tables 
 75 PR/ResidentialStatusCode DHR MHA Internal Code PersonPRStatusCode 5 A, C, P, U, N Item data/Lists/NYP Code Tables 
-
 
